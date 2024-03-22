@@ -42,6 +42,19 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
+		<distributionmanagement>
+		<repository>
+			<id>nexus</id>
+			<name>simple-web-app</name>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-release/</url>
+		</repository>
+
+		<snapshotrepository>
+			<id>nexus</id>
+			<name>simple-web-app-snapshot</name>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-snapshot/</url>
+		<snapshotrepository>
+</distributionmanagement>
 	</dependencyManagement>
 	
 	<dependencies>
@@ -147,21 +160,6 @@
         	</dependency>
 	</dependencies>
 
-
-	
-<distributionmanagement>
-		<repository>
-			<id>nexus</id>
-			<name>simple-web-app</name>
-			<url>http://65.0.30.162:8081/repository/simple-web-app-release/</url>
-		</repository>
-
-		<snapshotrepository>
-			<id>nexus</id>
-			<name>simple-web-app-snapshot</name>
-			<url>http://65.0.30.162:8081/repository/simple-web-app-snapshot/</url>
-		<snapshotrepository>
-</distributionmanagement>
 				
 	<build>
 		<plugins>
