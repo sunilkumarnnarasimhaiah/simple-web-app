@@ -24,6 +24,17 @@
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>1.3.0-BUILD-SNAPSHOT</version>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-snapshot/</url>
+		</snapshotRepository>
+		<repository>
+			<id>release</id>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-release/</url>
+		</repository>	
+	</distributionManagement>
 	
 	<properties>
 		<java-version>1.8</java-version>
