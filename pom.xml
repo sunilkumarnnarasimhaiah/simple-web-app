@@ -24,11 +24,12 @@
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>1.3.0-BUILD-SNAPSHOT</version>
-	<sonar.host.url>http://13.232.80.240:9000/</sonar.host.url>
-	<sonar.login>squ_6fb47ab32310108ad66d2ea2dc2683860a373349</sonar.login>
+	
 	<properties>
 		<java-version>1.8</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
+		<sonar.host.url>http://13.232.80.240:9000/</sonar.host.url>
+		<sonar.login>squ_6fb47ab32310108ad66d2ea2dc2683860a373349</sonar.login>
 	</properties>
 	
 	<dependencyManagement>
