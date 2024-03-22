@@ -24,6 +24,8 @@
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>1.3.0-BUILD-SNAPSHOT</version>
+	<sonar.url>http://13.232.80.240:9000/</sonar.url>
+	<sonar.login>squ_6fb47ab32310108ad66d2ea2dc2683860a373349</sonar.login>
 	<properties>
 		<java-version>1.8</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
@@ -143,6 +145,19 @@
 	            </exclusions>
         	</dependency>
 	</dependencies>
+	<distributionmanagement>
+		<repository>
+			<id>nexus</id>
+			<name>simple-web-app</name>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-release/</url>
+		</repository>
+
+		<snapshotrepository>
+			<id>nexus</id>
+			<name>simple-web-app-snapshot</name>
+			<url>http://65.0.30.162:8081/repository/simple-web-app-snapshot/</url>
+		<snapshotrepository>
+				
 	<build>
 		<plugins>
 			<plugin>
